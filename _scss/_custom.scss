@@ -1,0 +1,108 @@
+// $leisa-orange: #efa31f;
+// $leisa-green: #5f9217;
+$blue-bg: #1984b7;
+$green-btn: #37ba2e;
+
+@import url(https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css);
+@import url(https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.1/animate.min.css);
+@import url('https://fonts.googleapis.com/css?family=Lato:300,300i,400,400i,700,700i&display=swap');
+@import url(https://fonts.googleapis.com/css?family=Homemade+Apple);
+
+html {
+  max-height: 100%;
+}
+
+body {
+  display: none;
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  p {
+    font-family: 'Lato', sans-serif;
+  }
+}
+
+header {
+  padding-top: 3rem;
+  padding-bottom: 2rem;
+  border-bottom: 1px solid black;
+
+  .container {
+    // border: 4px dotted blue;
+    @media (min-width: 1000px) {
+      width: 70% !important;
+    }
+
+    .header-text {
+      padding-top: 2rem;
+      h5 {
+        // border: 2px solid red;
+        font-weight: 600;
+      }
+    }
+  }
+}
+
+#main-content {
+  // border: 4px dotted red;
+  .container {
+    // border: 4px dotted blue;
+    @media (min-width: 1000px) {
+      width: 70% !important;
+    }
+
+    .title {
+      padding-top: 3rem;
+      font-size: 2.5rem;
+      font-weight: 600;
+    }
+    .subtitle {
+      font-weight: 600;
+      font-size: 1.2rem;
+      color: gray;
+    }
+
+    .right-form-box {
+      // border: 1rem solid red;
+      border-radius: 20px;
+      background: $blue-bg;
+      #sib-form-container {
+        background: $blue-bg;
+        #sib-container {
+          background: $blue-bg;
+          border: 0px solid transparent !important;
+        }
+        #sib-form {
+          background: $blue-bg;
+          input {
+            width: 100%;
+          }
+          .input--hidden {
+            display: none !important;
+          }
+          .sib-form-block {
+            margin-bottom: -1.8rem !important;
+            p {
+              color: white;
+            }
+            label.entry__specification {
+              color: white !important;
+            }
+            button.sib-form-block__button {
+              // border: 1rem solid red !important;
+              background: #37ba2e !important;
+              padding: 1rem;
+              width: 100% !important;
+            }
+          }
+          svg {
+            display: none;
+          }
+        }
+      }
+    }
+  }
+}

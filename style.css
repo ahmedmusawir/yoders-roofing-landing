@@ -1,0 +1,109 @@
+/*
+Theme Name: MooseFrame For Cathy Heller
+Theme URI: http://www.htmlfivedev.com
+Description: This is the one custom built for Cathy Heller from scratch.
+Tags: one-column, two-columns, left-sidebar, right-sidebar, custom-background, custom-header, custom-menu, editor-style, featured-image-header, featured-images, post-formats, responsive-layout, theme-options, translation-ready
+Author: Ahmed Rahat Musawir (Da Moose)
+Author URI: https://www.linkedin.com/in/ahmedmusawir
+License: GNU General Public License version 3.0
+License URI: http://www.gnu.org/licenses/gpl-3.0.html
+Version: 11.6
+
+All css files are placed in /css/ folder.
+If you want to add your own css code, please do it in /css/custom.css
+
+*/
+/* =WordPress Core
+-------------------------------------------------------------- */
+@import url(https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css);
+@import url(https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.1/animate.min.css);
+@import url("https://fonts.googleapis.com/css?family=Lato:300,300i,400,400i,700,700i&display=swap");
+@import url(https://fonts.googleapis.com/css?family=Homemade+Apple);
+html {
+  max-height: 100%;
+}
+
+body {
+  display: none;
+}
+body h1,
+body h2,
+body h3,
+body h4,
+body h5,
+body h6,
+body p {
+  font-family: "Lato", sans-serif;
+}
+
+header {
+  padding-top: 3rem;
+  padding-bottom: 2rem;
+  border-bottom: 1px solid black;
+}
+@media (min-width: 1000px) {
+  header .container {
+    width: 70% !important;
+  }
+}
+header .container .header-text {
+  padding-top: 2rem;
+}
+header .container .header-text h5 {
+  font-weight: 600;
+}
+
+@media (min-width: 1000px) {
+  #main-content .container {
+    width: 70% !important;
+  }
+}
+#main-content .container .title {
+  padding-top: 3rem;
+  font-size: 2.5rem;
+  font-weight: 600;
+}
+#main-content .container .subtitle {
+  font-weight: 600;
+  font-size: 1.2rem;
+  color: gray;
+}
+#main-content .container .right-form-box {
+  border-radius: 20px;
+  background: #1984b7;
+}
+#main-content .container .right-form-box #sib-form-container {
+  background: #1984b7;
+}
+#main-content .container .right-form-box #sib-form-container #sib-container {
+  background: #1984b7;
+  border: 0px solid transparent !important;
+}
+#main-content .container .right-form-box #sib-form-container #sib-form {
+  background: #1984b7;
+}
+#main-content .container .right-form-box #sib-form-container #sib-form input {
+  width: 100%;
+}
+#main-content .container .right-form-box #sib-form-container #sib-form .input--hidden {
+  display: none !important;
+}
+#main-content .container .right-form-box #sib-form-container #sib-form .sib-form-block {
+  margin-bottom: -1.8rem !important;
+}
+#main-content .container .right-form-box #sib-form-container #sib-form .sib-form-block p {
+  color: white;
+}
+#main-content .container .right-form-box #sib-form-container #sib-form .sib-form-block label.entry__specification {
+  color: white !important;
+}
+#main-content .container .right-form-box #sib-form-container #sib-form .sib-form-block button.sib-form-block__button {
+  background: #37ba2e !important;
+  padding: 1rem;
+  width: 100% !important;
+}
+#main-content .container .right-form-box #sib-form-container #sib-form svg {
+  display: none;
+}
+
+/*# sourceMappingURL=style.css.map */
