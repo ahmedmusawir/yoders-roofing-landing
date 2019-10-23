@@ -65,6 +65,13 @@ header {
       color: gray;
     }
 
+    .left-image-box {
+      img {
+        @media (max-width: 767px) {
+          margin-bottom: 2rem;
+        }
+      }
+    }
     .right-form-box {
       // border: 1rem solid red;
       border-radius: 20px;
@@ -105,4 +112,9 @@ header {
       }
     }
   }
+}
+
+footer {
+  color: white;
+  background: $blue-bg;
 }

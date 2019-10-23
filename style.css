@@ -68,6 +68,11 @@ header .container .header-text h5 {
   font-size: 1.2rem;
   color: gray;
 }
+@media (max-width: 767px) {
+  #main-content .container .left-image-box img {
+    margin-bottom: 2rem;
+  }
+}
 #main-content .container .right-form-box {
   border-radius: 20px;
   background: #1984b7;
@@ -104,6 +109,11 @@ header .container .header-text h5 {
 }
 #main-content .container .right-form-box #sib-form-container #sib-form svg {
   display: none;
+}
+
+footer {
+  color: white;
+  background: #1984b7;
 }
 
 /*# sourceMappingURL=style.css.map */
